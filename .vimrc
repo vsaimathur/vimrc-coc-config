@@ -26,6 +26,13 @@ Plug 'junegunn/fzf.vim'
 " coc - intellisense plugin - Use release branch (recommended)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" commentary.vim to comment/uncomment lines
+Plug 'tpope/vim-commentary'
+
+" vs-code color scheme
+Plug 'tomasiser/vim-code-dark'
+
+filetype plugin indent on
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -47,7 +54,7 @@ set wildmode=list:longest,list:full
 
 set number
 
-colorscheme desert
+colorscheme codedark
 
 " COC - Intellisense custom settings!!
 " coc needs node to be preinstalled for it to work.
