@@ -56,6 +56,10 @@ set number
 
 colorscheme codedark
 
+" Setting grep program for grep to work in vim to search for string in files
+" recursively. For more details see - https://www.youtube.com/watch?v=hIbTvteBdSY
+set gp=git\ grep\ -n
+
 " COC - Intellisense custom settings!!
 " coc needs node to be preinstalled for it to work.
 let g:coc_node_path="`which node`"
